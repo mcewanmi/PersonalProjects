@@ -1,0 +1,10 @@
+E:\MicrosoftVisualStudios_Projects\FunWithText\FunWithText\bin\Debug\FunWithText.exe.config
+E:\MicrosoftVisualStudios_Projects\FunWithText\FunWithText\bin\Debug\FunWithText.exe
+E:\MicrosoftVisualStudios_Projects\FunWithText\FunWithText\bin\Debug\FunWithText.pdb
+E:\MicrosoftVisualStudios_Projects\FunWithText\FunWithText\obj\Debug\FunWithText.csprojAssemblyReference.cache
+E:\MicrosoftVisualStudios_Projects\FunWithText\FunWithText\obj\Debug\FunWithText.Form1.resources
+E:\MicrosoftVisualStudios_Projects\FunWithText\FunWithText\obj\Debug\FunWithText.Properties.Resources.resources
+E:\MicrosoftVisualStudios_Projects\FunWithText\FunWithText\obj\Debug\FunWithText.csproj.GenerateResource.cache
+E:\MicrosoftVisualStudios_Projects\FunWithText\FunWithText\obj\Debug\FunWithText.csproj.CoreCompileInputs.cache
+E:\MicrosoftVisualStudios_Projects\FunWithText\FunWithText\obj\Debug\FunWithText.exe
+E:\MicrosoftVisualStudios_Projects\FunWithText\FunWithText\obj\Debug\FunWithText.pdb
