@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MortgageCalculator.exe" version="1.0.0.0" publicKeyToken="5a059770dc5f94c7" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MortgageCalculator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MortgageCalculator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MortgageCalculator.exe" size="20952">
+      <assemblyIdentity name="MortgageCalculator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1tK8ijP5wd216wdLradePazLugbQgV7IQoCFd60/wZ8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MortgageCalculator.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MikesDesktop\Michael" issuerKeyHash="b1c3b8918e8784264bd837d54014d97a61c2db60" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>cxblwTqluJRsM8RB0+yBVc/iPjRYzjWqK4eFqXV+6HQ=</DigestValue></Reference></SignedInfo><SignatureValue>W/nuoQXSbWT6lXY9y8YbM13OBKaGHX0bOc5fhXE7EpmNO3/Fws/ZDCAWzbA4ZZgTx6lT/we+o6ZclZTPWLV46SVWcvmL3iwasxIpIRQPIwc1sviuKFoLC2GJke2CvMJY/GjoxzyMX16825C/1bzm9It7Ut2U2rhtY3cREKmiBQ0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>lE6YxycVOXG1MyDpLXtk7//0m8HtZdormLNCnyyYjjoJo6bTqAD6uk1AiCLih41jxoaUHY7qfKdNbcUU4XKBSnBQrq91RncGaRALB+MSJELWehQ0Dns2EcMuraTeTvbdMUoqxEVmI470DEtebqPmhgieMJYLtxAWrN1c6NpgSVE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="74e87e75a985872baa35ce58343ee2cf5581ecd341c4336c94b8a53ac1e51673" Description="" Url=""><as:assemblyIdentity name="MortgageCalculator.exe" version="1.0.0.0" publicKeyToken="5a059770dc5f94c7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MikesDesktop\Michael</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>31blKssWIzeqUUgNzPtFF+0LPE5gT94swTu406D2NcI=</DigestValue></Reference></SignedInfo><SignatureValue>ceR/ARd2qB46TTJ8ZHAEIVcVyvuSTFnmeF8u7KsVNK6HHg5UwO1W5ui9GfvCd8Fhr8USPZnhVEaTLsYF815YAiMUpwThL6MgHp6JrnV2vGsamq3RBYcz6366MdTuhFRVoj27G2AM6l5Ty7E/MSecm9M2g7Hzr7KLgOUPYkJ/eqo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>lE6YxycVOXG1MyDpLXtk7//0m8HtZdormLNCnyyYjjoJo6bTqAD6uk1AiCLih41jxoaUHY7qfKdNbcUU4XKBSnBQrq91RncGaRALB+MSJELWehQ0Dns2EcMuraTeTvbdMUoqxEVmI470DEtebqPmhgieMJYLtxAWrN1c6NpgSVE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQTfzN+GCAmqRO9KeEKNzd0TANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigATQBpAGsAZQBzAEQAZQBzAGsAdABvAHAAXABNAGkAYwBoAGEAZQBsMB4XDTE4MDYxMTE0NDgyM1oXDTE5MDYxMTIwNDgyM1owMzExMC8GA1UEAx4oAE0AaQBrAGUAcwBEAGUAcwBrAHQAbwBwAFwATQBpAGMAaABhAGUAbDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAlE6YxycVOXG1MyDpLXtk7//0m8HtZdormLNCnyyYjjoJo6bTqAD6uk1AiCLih41jxoaUHY7qfKdNbcUU4XKBSnBQrq91RncGaRALB+MSJELWehQ0Dns2EcMuraTeTvbdMUoqxEVmI470DEtebqPmhgieMJYLtxAWrN1c6NpgSVECAwEAATANBgkqhkiG9w0BAQsFAAOBgQCIGq9C51nZD69AwNQxl2AuEb9hmVdmm+dqmkkroAkNgMCHMAa8AWdkSRp7Fa6gScC0cdqtdWdXUXEsgimy4u+84idpYaLWPRQfWHAw4A1DvhQzjhOplSr3zTOFnOHhWCiQ+ZNHrkR69lV7Ol1H8jISPxJ5T2WcU5IQBg2oqFWCfA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
